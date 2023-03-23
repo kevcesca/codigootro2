@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formulario</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <div class="formulario">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre">
+      <label for="edad">Edad:</label>
+      <input type="text" id="edad">
+      <label for="nacionalidad">Nacionalidad:</label>
+      <select id="nacionalidad">
+        <option value="ar">Argentina</option>
+        <option value="mx">Mexicana</option>
+        <option value="per">Peruana</option>
+        <option value="vnzl">Venezolana</option>
+      </select>
+      <button onclick="crearTarjeta()">Crear tarjeta</button>
+    </div>
+    <br>
+    <h1>Lista de invitados</h1>
+    <div id="tarjetas"></div>
+
+    <script src="./formulario.js"></script>
+  </body>
+</html>
